@@ -26,12 +26,27 @@ const projectsfilePath = path.join(__dirname, '..', 'public', 'js', 'data', 'pro
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true })); // parse form submissions
-app.use(express.static('public')); // Serve your HTML, CSS, and JS from a 'public' folder
+app.use(express.static(path.join(__dirname, '..', 'public'))); // Serve your HTML, CSS, and JS from a 'public' folder
 
 
-app.get("/", (req, res) => {
-    
-});
+// app.get("/", (req, res) => {
+//     res.sendFile(path.join(__dirname, '..', 'public', 'index.html'));
+// });
+
+// // GET projects.html page
+// app.get("/projects", (req, res) => {
+//   res.sendFile(path.join(__dirname, '..', 'public', 'projects.html'));
+// });
+
+// // GET about.html page
+// app.get("/about", (req, res) => {
+//   res.sendFile(path.join(__dirname, '..', 'public', 'about.html'));
+// });
+
+// // GET contact.html page
+// app.get("/contact", (req, res) => {
+//     res.sendFile(path.join(__dirname, '..', 'public', 'contact.html'));
+// });
 
 // Logic for when the user makes a GET request to api/projects
 // // by getting the appropriate JSON data back for the page.
