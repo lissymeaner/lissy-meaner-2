@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.4.21",
+    "bootstrap": "^5.3.8",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.6",
+    "pcli": "^0.0.1"
+  },
+  "devDependencies": {
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1"
+  },
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Hi! This project is only for me! Kidding. This is for you, to wander and gander",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
