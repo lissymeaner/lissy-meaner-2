@@ -1,0 +1,6 @@
+@media (prefers-color-scheme: dark) {
+    .form-control {background-color: #121212;}
+
+    /* Placeholder text */
+    .form-control::placeholder {color: #fff;}
+}

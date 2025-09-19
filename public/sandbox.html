@@ -1,0 +1,132 @@
+<html>
+
+<head>
+    <style>
+        .parent {
+            width: 300px;
+            border: 5px solid red;
+            overflow-x: hidden;
+            float: left;
+        }
+
+        .child {
+            width: 1000px;
+            float: left;
+            font-size: 15px;
+            font-family: arial;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+    <style id="wrm-style">
+        .wrm-style__backgroundColor {
+            background-color: #ffd700 !important;
+        }
+
+        .wrm-style__bold {
+            font-weight: 700 !important;
+        }
+
+        .wrm-style__color {
+            color: #dc3545 !important;
+        }
+
+        .wrm-style__italic {
+            font-style: italic !important;
+        }
+
+        .wrm-style__strikethrough {
+            text-decoration: line-through !important;
+        }
+
+        .wrm-style__underline {
+            text-decoration: underline !important;
+        }
+
+        .wrm-style__strikethrough.wrm-style__underline {
+            text-decoration: line-through underline !important;
+        }
+
+        .hidden{
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body inject_vt_svd="true" data-new-gr-c-s-check-loaded="14.1252.0" data-gr-ext-installed="">
+    <div class="parent">
+        <div class="child">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum
+        </div>
+
+    </div>
+    <button class="left hidden">&lt;</button>
+    <button class="right">&gt;</button>
+    <script type="text/javascript">
+        let mouseDown = false;
+        let startX, scrollLeft;
+        const slider = document.querySelector('.parent');
+        const btnRight = document.querySelector('.right');
+        const btnLeft = document.querySelector('.left');
+        let maxScrollLeft = slider.scrollWidth - slider.clientWidth
+
+        const startDragging = (e) => {
+            mouseDown = true;
+            startX = e.pageX - slider.offsetLeft;
+            scrollLeft = slider.scrollLeft;
+        }
+
+        const stopDragging = (e) => {
+            mouseDown = false;
+        }
+
+        const move = (e) => {
+            e.preventDefault();
+            if (!mouseDown) { return; }
+            const x = e.pageX - slider.offsetLeft;
+            const scroll = x - startX;
+            slider.scrollLeft = scrollLeft - scroll;
+        }
+
+        // Add the event listeners for dragging
+        slider.addEventListener('mousemove', move, false);
+        slider.addEventListener('mousedown', startDragging, false);
+        slider.addEventListener('mouseup', stopDragging, false);
+        slider.addEventListener('mouseleave', stopDragging, false);
+
+        // Add event listener for scrolling using arrows
+        slider.addEventListener('scroll', () => {
+            // logic when reaching start of slider
+            if (slider.scrollLeft === 0 && !btnLeft.classList.contains('hidden')){
+                btnLeft.classList.add('hidden');
+            }else{btnLeft.classList.remove('hidden');}
+            
+            // logic when reaching far end of slider
+            if (slider.scrollLeft >= maxScrollLeft && !btnRight.classList.contains('hidden')){
+                btnRight.classList.add('hidden');
+            }else{btnRight.classList.remove('hidden');}
+        })
+        
+        
+        btnRight.onclick = () => {
+            slider.scrollLeft += 20;
+            console.log(slider.scrollLeft);
+        };
+        
+        btnLeft.onclick = () => {
+            slider.scrollLeft -= 20;
+            console.log(slider.scrollLeft);
+        };
+    </script>
+
+
+    <div id="vimeo_tool" class="vimeo_tool"></div>
+    <div id="vtPopupMenu" style="display: none;"></div>
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+
+</html>

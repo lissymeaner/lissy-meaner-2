@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/projects.css">
+    <link rel="stylesheet" href="./css/modals.css">
+    <script src="./js/projects.js"></script>
+    <title>LISSY MEANER 2</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container"><h1 id="logo"><a href="./">LISSY MEANER</a></h1></div>
+        <h2 id="subtitle">dev & engineer</p>
+    </header>
+    <main>
+        <div class="scroller">
+            <button type="button" class="btn btn-light left">&lt;</button>
+            <div class="scroll-container">
+                <div class="scroll">
+                    <button type="button" id="all" class="btn btn-tag">All</button>
+                    <button type="button" id="software" class="btn btn-tag">Software</button>
+                    <button type="button" id="cSharp" class="btn btn-tag">C#</button>
+                    <button type="button" id="consoleApp" class="btn btn-tag">Console</button>
+                    <button type="button" id="htmlSite" class="btn btn-tag">HTML</button>
+                    <button type="button" id="cssStyling" class="btn btn-tag">CSS</button>
+                    <button type="button" id="js" class="btn btn-tag">JS</button>
+                    <button type="button" id="frontEnd" class="btn btn-tag">Front-End</button>
+                    <button type="button" id="backEnd" class="btn btn-tag">Back-End</button>
+                    <button type="button" id="fullStack" class="btn btn-tag">Full-Stack</button>
+                    <button type="button" id="webDev" class="btn btn-tag">Web Dev</button>
+                    <button type="button" id="digitalArt" class="btn btn-tag">Digital Art</button>
+                </div>
+            </div>
+            <button type="button" class="btn btn-light right">&gt;</button>
+        </div>
+        <ul id="project-list">
+            <!-- Max 2 projects in each row -->
+            <!-- <div class="project-list-row">
+                <div class="card project">
+                    <img src="img/img1.jpg" class="card-img-top" alt=""/>
+                    <div class="card-body">
+                        <h3 class="card-title">Project title</h3>
+                        <p class="card-text">Date began</p>
+                    </div>
+                    
+                </div>
+                <div class="card project">
+                    <img src="img/img2.jpg" class="card-img-top" alt=""/>
+                    <div class="card-body">
+                        <h3 class="card-title">Project title</h3>
+                        <p class="card-text">Date began</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="project-list-row">
+                <div class="card project">
+                    <img src="img/img3.jpg" class="card-img-top" alt=""/>
+                    <div class="card-body">
+                        <h3 class="card-title">Project title</h3>
+                        <p class="card-text">Date began</p>
+                    </div>
+                    
+                </div>
+                <div class="card project">
+                    <img src="img/img4.jpg" class="card-img-top" alt=""/>
+                    <div class="card-body">
+                        <h3 class="card-title">Project title</h3>
+                        <p class="card-text">Date began</p>
+                    </div>
+                </div>
+            </div> -->
+        </ul>
+    </main>
+    <footer>
+        <p>This app was made as part of Couch to Coder 2025.</p>
+        <ul class="footer-social-media social-media">
+            <li><a href="https://github.com/lissymeaner/">GitHub</a></li>
+            <li><a href="https://bsky.app/profile/lissym.dev">Bsky</a></li>
+            <li><a href="https://linkedin.com/in/mamjoonie">LinkedIn</a></li>
+        </ul>
+    </footer>
+    <!-- Modal: it always needs to be below the header, main and footer -->
+    <div class="modal fade" id="projectModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div style="display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    align-items: center;
+                    gap: 2rem;
+                    padding-bottom: 2rem;">
+                        <img id="modalImg" class="img-fluid mb-3" alt="">
+                        <div>
+                            <h3 id="modalTitle" class="modal-title"></h3>
+                            <p id="modalDates"></p>
+                        </div>
+                    </div>
+                    <p id="modalDescription"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

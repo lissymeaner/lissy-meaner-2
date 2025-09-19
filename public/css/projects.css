@@ -1,0 +1,35 @@
+/* STYLING FOR PROJECTS */
+/* project list */
+#project-list{
+    /* ... is a grid */
+    display: grid;
+    /* that has 2 columns */
+    grid-template-columns: 1fr 1fr;
+    padding-inline-start: 0;
+    /* with a gap between each cell */
+    gap: 2rem;
+    /* and makes up the entire screen. */
+    width: 100%;
+}
+
+/* project */
+.project{padding: 0;}
+
+/* cards */
+.card-img-top{user-select: none;}
+.card-text-start-date{text-align: right; font-style: italic;}
+
+/* STYLING FOR TAG SCROLL */
+/* scroller styling */
+.scroller, .scroll-container{
+    display: grid;
+    justify-content: space-between;
+    width: 100%;
+    grid-auto-flow: column;
+    overflow-x: hidden;
+}
+.scroller {padding-bottom: 20pt;}
+
+.scroll{width: 940px;cursor: pointer;}
+.scroll::selection{color: none; background: none;}
+.scroll::moz-selection{color: none; background: none;}

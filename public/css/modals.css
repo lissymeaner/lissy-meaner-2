@@ -1,0 +1,10 @@
+/* MODALS */
+.modal-header{border-bottom: none;}
+#modalTitle{font-size: 2rem;}
+#modalDates{font-size: 1.5rem;font-style: italic;}
+#modalDescription{overflow-y: auto;height: 100px;}
+
+@media (prefers-color-scheme: dark) {
+    .modal-content{background-color: #121212;}
+    .btn-close{--bs-btn-close-focus-shadow: 0 0 0 0.25rem #12121240;}
+}

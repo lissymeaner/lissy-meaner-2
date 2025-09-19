@@ -1,0 +1,57 @@
+[
+    {
+        "title":"FisherYatesList",
+        "dates":
+        {
+            "dateStarted":"2025-02-01",
+            "dateCompleted":""
+        },
+        "description":"FisherYatesList is a .NET console app takes a list and number of algorithm passes, all input by the user, and outputs the resulting list for each pass. It is split into two modules: Program.cs for running the main program and UI.cs to store the functionality itself. This was one of the two console programs I made to familiarise myself with features I was to add to my A-Level Computer Science (CS) music player project; the other was 'Queue and Loop'. I tried Git for the first time with this program.",
+        "photo":"/img/fisher-yates-list.jpg",
+        "tags":["Software", "C#", "Console"]
+    },
+    {
+        "title":"lissy meaner",
+        "dates":
+        {
+            "dateStarted":"2025-03-04",
+            "dateCompleted":"2025-09-14"
+        },
+        "description":"First version of this website, static and simple. I used this project as a canvas to upskill in front-end web development: I experimented with the Bootstrap 5 framework, and used CodePen and StackOverflow for implementing new ideas. Months before at a fair in Bedfordshire, an advisor for the University of Leicester suggested I make a portfolio ahead of my first year at university. I wanted to make this my own, so I chose purple in the theme for my personal brand.",
+        "photo":"/img/lissy-meaner.jpg",
+        "tags":["Software", "HTML", "CSS", "JS", "Front-End", "Web Dev"]
+    },
+    {
+        "title":"LISSY MEANER 2",
+        "dates":
+        {
+            "dateStarted":"2025-09-13",
+            "dateCompleted":""
+        },
+        "description":"This website is a personal portfolio redesigned into a full-stack app where visitors can contact me about their enquiries via email. During my virtual internship at the Bright Network's IEUK2025, I made a web server to solve a 'human vs. bot' traffic problem with a small music website. I have always been interested in full-stack development, so it was exciting to found out about Couch to Coder (C2C3). During the core C2C3 course, I took the opportunity to learn about the backend, seek help from fellow professionals taking the same course and revitalised my portfolio into something that caters more to the visitor.",
+        "photo":"/img/lissy-meaner-2.jpg",
+        "tags":["Software", "HTML", "CSS", "JS", "Full-Stack", "Front-End", "Back-End", "Web Dev"]
+    },
+    {
+        "title":"Queue and Loop",
+        "dates":
+        {
+            "dateStarted":"2025-02-04",
+            "dateCompleted":""
+        },
+        "description":"A .NET console app in which a user types a list of strings to queue up and controls which string in the queue displays on the screen using keyboard hotkeys. Press 'w'/'a' to move backward, 's'/'d' to move forward, or 'q' to quit. For my A-level CS project, which has both a graphical interface and backend code, I had to understand how to implement keyboard shortcuts in C#, which developing this program helped immensely. The Queue and Loop program looks similar to the FisherYatesList. Unlike the FisherYatesList, this program is not available on my GitHub.",
+        "photo":"/img/queue-loop.jpg",
+        "tags":["Software", "C#", "Console"]
+    },
+    {
+        "title":"StarBust Ent",
+        "dates":
+        {
+            "dateStarted":"2023-06-24",
+            "dateCompleted":"2025-02-17"
+        },
+        "description":"A fictitious early-'00s style Korean entertainment company website designed to mimic real corporate branding. Satirises 1st and 2nd gen. The first project which I fully experimented with front-end development and digital art, researched well, and deliberately planned everything that it can be. In February 2025, I completed the English front page and main design concept. Some lower-priority pages redirect back to the homepage, and future scope includes updating the local Korean, Chinese and Japanese versions. Though, the published version shows itself as a polished, self-contained product that fulfills the intended parodic concept.",
+        "photo":"/img/starbust-front-page.jpg",
+        "tags":["Software", "HTML", "CSS", "JS", "Front-End", "Digital Art", "Web Dev"]
+    }
+]
