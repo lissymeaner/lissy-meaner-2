@@ -17,7 +17,7 @@
   "description": "A personal portfolio designed as a full-stack app where visitors can contact me about their enquiries via email.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node api/index.js"
   },
   "keywords": [],
   "author": "",
