@@ -14,7 +14,7 @@
   },
   "name": "project",
   "version": "1.0.0",
-  "description": "Hi! This project is only for me! Kidding. This is for you, to wander and gander",
+  "description": "A personal portfolio designed as a full-stack app where visitors can contact me about their enquiries via email.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
