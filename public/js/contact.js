@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // // Debug if there has been any data sent.
             console.log("Form data sent:", data);
             // // Fetch the contact page, and the POST request made to it.
-            const response = await fetch('http://localhost:3000/api/contact', {
+            const response = await fetch('/api/contact', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data),

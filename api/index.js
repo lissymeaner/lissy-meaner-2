@@ -107,5 +107,5 @@ app.post('/api/contact', async (req, res) => {
 
 // Start the server and listen to incoming requests from localhost port 3000.
 app.listen(port, () => {
-  console.log(`Server listening at http://localhost:${port}`);
+  console.log(`Server listening at https://lissy-meaner-2.vercel.app`);
 });

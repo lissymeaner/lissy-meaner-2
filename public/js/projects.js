@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     //#region 1: Make a request that loads in the project from our own backend
     // Convert project JSON data to visible HTML/CSS components
     // 1. Capture the response value
-    const response = await fetch("http://localhost:3000/api/projects");
+    const response = await fetch('/api/projects');
     // 2. Turn it into JavaScript objects
     const projects = await response.json();
     
