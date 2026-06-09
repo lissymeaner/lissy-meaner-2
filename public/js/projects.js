@@ -122,7 +122,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     backEnd.addEventListener('click', () => { backEnd.classList.toggle("active"); filterProjects(); });
     fullStack.addEventListener('click', () => { fullStack.classList.toggle("active"); filterProjects(); });
     webDev.addEventListener('click', () => { webDev.classList.toggle("active"); filterProjects(); });
-    digitalArt.addEventListener('click', () => { digitalArt.classList.toggle("active"); filterProjects(); });
     
     
     ////////// FUNCTIONALITY FOR SCROLLER ////////////

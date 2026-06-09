@@ -42,16 +42,5 @@
         "description":"A .NET console app in which a user types a list of strings to queue up and controls which string in the queue displays on the screen using keyboard hotkeys. Press 'w'/'a' to move backward, 's'/'d' to move forward, or 'q' to quit. For my A-level CS project, which has both a graphical interface and backend code, I had to understand how to implement keyboard shortcuts in C#, which developing this program helped immensely. The Queue and Loop program looks similar to the FisherYatesList. Unlike the FisherYatesList, this program is not available on my GitHub.",
         "photo":"/img/queue-loop.jpg",
         "tags":["Software", "C#", "Console"]
-    },
-    {
-        "title":"StarBust Ent",
-        "dates":
-        {
-            "dateStarted":"2023-06-24",
-            "dateCompleted":"2025-02-17"
-        },
-        "description":"A fictitious early-'00s style Korean entertainment company website designed to mimic real corporate branding. Satirises 1st and 2nd gen. The first project which I fully experimented with front-end development and digital art, researched well, and deliberately planned everything that it can be. In February 2025, I completed the English front page and main design concept. Some lower-priority pages redirect back to the homepage, and future scope includes updating the local Korean, Chinese and Japanese versions. Though, the published version shows itself as a polished, self-contained product that fulfills the intended parodic concept.",
-        "photo":"/img/starbust-front-page.jpg",
-        "tags":["Software", "HTML", "CSS", "JS", "Front-End", "Digital Art", "Web Dev"]
     }
 ]
