@@ -111,17 +111,18 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
     
     // 8. Add event listeners to all buttons
-    all.addEventListener('click', () => {all.classList.toggle("active"); filterProjects();})
+    all.addEventListener('click', () => { all.classList.toggle("active"); filterProjects(); })
     software.addEventListener('click', () => { software.classList.toggle("active"); filterProjects(); });
     cSharp.addEventListener('click', () => { cSharp.classList.toggle("active"); filterProjects(); });
     consoleApp.addEventListener('click', () => { consoleApp.classList.toggle("active"); filterProjects(); });
+    cloud.addEventListener('click', () => { cloud.classList.toggle("active"); filterProjects(); });
+    webDev.addEventListener('click', () => { webDev.classList.toggle("active"); filterProjects(); });
+    backEnd.addEventListener('click', () => { backEnd.classList.toggle("active"); filterProjects(); });
+    frontEnd.addEventListener('click', () => { frontEnd.classList.toggle("active"); filterProjects(); });
+    fullStack.addEventListener('click', () => { fullStack.classList.toggle("active"); filterProjects(); });
     htmlSite.addEventListener('click', () => { htmlSite.classList.toggle("active"); filterProjects(); });
     cssStyling.addEventListener('click', () => { cssStyling.classList.toggle("active"); filterProjects(); });
     js.addEventListener('click', () => { js.classList.toggle("active"); filterProjects(); });
-    frontEnd.addEventListener('click', () => { frontEnd.classList.toggle("active"); filterProjects(); });
-    backEnd.addEventListener('click', () => { backEnd.classList.toggle("active"); filterProjects(); });
-    fullStack.addEventListener('click', () => { fullStack.classList.toggle("active"); filterProjects(); });
-    webDev.addEventListener('click', () => { webDev.classList.toggle("active"); filterProjects(); });
     
     
     ////////// FUNCTIONALITY FOR SCROLLER ////////////
@@ -219,7 +220,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             // // that use the format 'Month Year – Month Year'.
             document.getElementById('modalDates').textContent = `${start} – ${end}`;
         } // 7. Show the project description
-        document.getElementById('modalDescription').textContent = project.description;
+        document.getElementById('modalDescription').innerHTML = project.description;
     }
     
     // 8. Add a click event listener for each project inside the list

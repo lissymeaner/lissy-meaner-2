@@ -1,5 +1,16 @@
 [
     {
+        "title":"Brand Clearance",
+        "dates":
+        {
+            "dateStarted":"2026-08-01",
+            "dateCompleted":"2026-08-05"
+        },
+        "description":"How an app looks like on a tight deadline. On the front-end, a website that sells branded items that need clearing off. On the back-end, a lightweight Node.js app ran on an AWS EC2 server. It was made as part of Femetronics' Cloud Computing challenge. Visit the <a href=\"http://16.170.249.50/all\">website</a> and <a href=\"https://drive.google.com/file/d/1_6AaIRJvftY0tqenmTLE7NddtwLJI_Pe/view?usp=sharing\">demo.",
+        "photo":"/img/brand-clearance.jpg",
+        "tags":["Software", "JS", "Full-Stack", "Front-End", "Back-End", "Web Dev", "Cloud"]
+    },
+    {
         "title":"FisherYatesList",
         "dates":
         {
