@@ -17,7 +17,7 @@
             "dateStarted":"2025-02-01",
             "dateCompleted":""
         },
-        "description":"FisherYatesList is a .NET console app takes a list and number of algorithm passes, all input by the user, and outputs the resulting list for each pass. It is split into two modules: Program.cs for running the main program and UI.cs to store the functionality itself. This was one of the two console programs I made to familiarise myself with features I was to add to my A-Level Computer Science (CS) music player project; the other was 'Queue and Loop'. I tried Git for the first time with this program.",
+        "description":"FisherYatesList is a .NET console app takes a list and number of algorithm passes, all input by the user, and outputs the resulting list for each pass. It is split into two modules: Program.cs for running the main program and UI.cs to store the functionality itself. This was one of the two console programs I made to familiarise myself with features I was to add to my A-Level Computer Science (CS) music player project; the other was 'Queue and Loop'. I tried Git for the first time with this program. Visit the <a href=\"https://github.com/lissymeaner/FisherYatesList\">GitHub repo</a>",
         "photo":"/img/fisher-yates-list.jpg",
         "tags":["Software", "C#", "Console"]
     },
