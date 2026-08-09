@@ -113,6 +113,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // 8. Add event listeners to all buttons
     all.addEventListener('click', () => { all.classList.toggle("active"); filterProjects(); })
     software.addEventListener('click', () => { software.classList.toggle("active"); filterProjects(); });
+    python.addEventListener('click', () => { python.classList.toggle("active"); filterProjects(); });
     cSharp.addEventListener('click', () => { cSharp.classList.toggle("active"); filterProjects(); });
     consoleApp.addEventListener('click', () => { consoleApp.classList.toggle("active"); filterProjects(); });
     cloud.addEventListener('click', () => { cloud.classList.toggle("active"); filterProjects(); });

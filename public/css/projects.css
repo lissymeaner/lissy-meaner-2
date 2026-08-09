@@ -30,6 +30,6 @@
 }
 .scroller {padding-bottom: 20pt;}
 
-.scroll{width: 940px;cursor: pointer;}
+.scroll{width: 1000px;cursor: pointer;}
 .scroll::selection{color: none; background: none;}
 .scroll::moz-selection{color: none; background: none;}
