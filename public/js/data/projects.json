@@ -50,7 +50,7 @@
             "dateStarted":"2025-12-10",
             "dateCompleted":"2026-01-22"
         },
-        "description":"A Python Tkinter app for managing bookstores. Users can view and add books, customers and orders. Once an order has been placed, a themed invoice will be generated. One of the most rewarding first-year assignments personally. <a href=\"https://github.com/lissymeaner/milkstones-book-ordering-system\">Link</a> to GitHub repo.",
+        "description":"A Python Tkinter app for managing bookstore orders. Users can view and add books, customers and orders. Once an order has been placed, a themed .xlsx invoice will be generated, which can be viewable at any time on Excel via the app. An order will also become searchable by its ID after placing it. One of the most rewarding first-year assignments personally, because of it was rarer for me to build desktop apps then. Visit the <a href=\"https://github.com/lissymeaner/milkstones-book-ordering-system\">GitHub repo</a>.",
         "photo":"/img/milkstones.jpg",
         "tags":["Software", "Python"]
     },
